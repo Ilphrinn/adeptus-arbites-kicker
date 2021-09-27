@@ -12,7 +12,8 @@ client.on('message', async message => {
         if (message.content.toLowerCase().includes('futur i3 pauc') || 
                 message.content.toLowerCase().includes('ingenieur 2eme annee') || 
                 message.content.toLowerCase().includes('ingénieur 2ème année') || 
-                message.content.toLowerCase().includes('futur i3pauc')) {
+                message.content.toLowerCase().includes('futur i3pauc')) ||
+                message.content.toLowerCase().includes('i2'){
 
                 var usr = message.guild.member(message.author)
                 
